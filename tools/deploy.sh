@@ -4,7 +4,7 @@
 
 set -eu
 
-PAGES_BRANCH="gh-pages"
+PAGES_BRANCH="dp-pages"
 
 _no_branch=false
 _backup_dir="$(mktemp -d)"
@@ -43,8 +43,8 @@ flush() {
 }
 
 deploy() {
-  git config --global user.name "GitHub Actions"
-  git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+  git config --global user.name "adtxgc"
+  git config --global user.email "adtxgc@hotmail.com"
 
   git update-ref -d HEAD
   git add -A
