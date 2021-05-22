@@ -1,2 +1,0 @@
-# adtxgc.github.io
-blogs
