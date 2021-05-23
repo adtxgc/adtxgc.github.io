@@ -1,5 +1,5 @@
 ---
-title: About
+title: 关于本站
 icon: fas fa-info
 order: 4
 ---
